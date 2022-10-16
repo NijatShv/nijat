@@ -1,0 +1,150 @@
+body{
+  font-family: 'Bungee Spice', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Rubik Dirt', cursive;
+
+  background-color:rgb(49, 155, 155);
+    
+  width: 90%;
+  margin: 50px auto;  
+  
+}
+.center{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.centerr{
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+hr {
+  border-top: 5px dotted rgb(29, 88, 88);
+  
+  margin: auto
+}
+.wer{
+  border-top: 3px solid rgb(29, 88, 88)  ;
+
+}
+
+
+p{color: rgb(0, 0, 0);}
+
+a:link {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+
+  a:visited {
+    color: #000000;
+  }
+  
+
+  a:hover {
+    color: #000000;
+    font-size: 120%;
+  }
+  
+
+  a:active {
+    color: #000000;
+    display: contents;
+  }
+
+  table, th, td {
+    
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    
+
+    color: rgb(0, 0, 0);
+    
+
+  }
+  div {
+    background-color:rgb(49, 155, 155);
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    right: 0;
+}
+div a {
+  color: white;
+  text-decoration:solid;
+  margin: 15px;
+  font-size: 1em;
+}
+  #specific{
+    color: brown;
+  }
+  textarea {
+    width: 100%;
+    height: 100px;
+
+    margin: 5px 0;
+    padding: 5px 10px;
+
+    border-radius: 3px;
+    box-sizing: border-box;
+    
+    background-color: rgb(29, 88, 88);
+    color: white;
+}
+input{
+  width: 100%;
+  margin: 5px 0;
+    padding: 5px 10px;
+
+    border-radius: 3px;
+    box-sizing: border-box;
+    
+    background-color:  rgb(29, 88, 88);
+    color: white;
+}
+.inpat{
+  background-color:  rgb(255, 255, 255);
+    color: black;
+    box-sizing: border-box;
+    border-radius: 3px
+}
+
+.image{
+  border-radius: 75%;
+}
+.glar{
+  text-align: center;
+  color: aqua;
+}
+.edu{
+  width: 100%;
+}
+
+
+
+a.lnk:link {
+  color: rgb(0, 47, 255);
+}
+
+
+a.lnk:visited {
+  color: rgb(255, 241, 52);
+}
+
+
+a.lnk:hover {
+  color: red;
+}
+
+
+a.lnk:active {
+  color: rgb(0, 0, 0);
+}
