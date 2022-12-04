@@ -20,6 +20,7 @@ font-family: 'Rubik Dirt', cursive;
     width: 100%;
     max-width: 420px;
     margin: 1em;
+    color: bisque;
 }
 .search{
     display: flex;
@@ -48,4 +49,6 @@ input.search-bar {
     width: 100%;
     font-size: 120%;
 }
- 
+.weather {
+    text-align: center;
+}
