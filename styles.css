@@ -1,5 +1,14 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+*{
+    font-family: 'SF Pro Display', sans-serif;
+    /* font-size: 16px; */
+}
+.green{
+    color: #739072;
+    text-decoration: none;
+}
 body {
-    background-color: #9caff5;
+    background-color: #739072;
     font-family: 'Inter', sans-serif;
 }
 
@@ -8,15 +17,26 @@ body {
 
     min-width: 350px;
     margin: 53px auto;
-    background: #9caff5;
+    background: #739072;
 }
-
+nav {
+    position: relative;
+    top: 10px;
+    background-color: #3A4D39;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1;
+   }
 .card {
     width: 90%;
     margin: 35px auto;
     border: 1px solid #ababab;
     border-radius: 10px;
     background-color: #161619;
+    border: none;
 }
 
 .top {
@@ -155,6 +175,7 @@ footer {
     justify-content: space-around;
     width: 80%;
     margin: auto;
+    color: #000000;
     
 }
 
@@ -176,17 +197,9 @@ footer {
 .social-icon>.fa:hover {
     background-color: #c7c6c9;
 }
-a:link {
-    color: inherit;
+  
+  .scl{
+    color: rgb(0, 0, 0);
     text-decoration: none;
   }
-  
-
-  a:visited {
-    color: inherit;
-  }
-  
-  a:active {
-    color: inherit;
-}
 
