@@ -1,0 +1,89 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+* {
+    font-family: 'SF Pro Display', sans-serif;
+    /* font-size: 20px; */
+    font-weight: bold;
+}
+
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: #000000;
+}
+
+
+
+a:active {
+    color: #000000;
+    display: contents;
+}
+
+nav {
+    position: fixed;
+    top: 20px;
+    background-color: #4F6F52;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1;
+    font-size: 20px;
+  }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #739072;
+
+
+}
+
+.card {
+    background: #000000;
+    padding: 1.5em;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    color: bisque;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 2.5em;
+    width: 2.5em;
+    outline: none;
+    background: #ffffff2b;
+    color: white;
+} */
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    background: #ffffff;
+    color: black;
+    font-family: inherit;
+    width: 100%;
+    font-size: 120%;
+}
+
+.weather {
+    text-align: center;
+}
